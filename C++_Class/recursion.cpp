@@ -10,6 +10,7 @@ int main(){
     cout<<"Factorial is "<<fact;
 }
 
+//afFs
 int rec(int a){
     int b;
     if(a<=1){
