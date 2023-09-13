@@ -13,7 +13,6 @@ void add(double a, double b)
 	cout << endl << "sum = " << (a + b);
 }
 
-// Driver code
 int main()
 {
 	add(10, 2);
