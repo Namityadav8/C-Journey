@@ -7,3 +7,8 @@ int main(){
     of.close();
     cout<<"data Saved\n";
 }
+
+
+
+
+
