@@ -13,6 +13,7 @@ class complex{
     }
 
     friend complex operator +(complex c1 , complex c2);
+    
         void show(){
             cout<<x<<"+"<<y<<"i";
         }
