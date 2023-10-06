@@ -25,4 +25,7 @@ int main(){
     cout<<"Before Overloading\n";
     x1.show();
     cout<<"After Overloading \n";
+    operator--(x1,1000);
+    x1.show();
+    return 0;
 } 
