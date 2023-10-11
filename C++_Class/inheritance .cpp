@@ -1,19 +1,20 @@
 #include<iostream>
-using namespace std; 
-class MyClass {     
-  public:            
-    int myNum;        
-    string myString;  
-};
+using namespace std;
+class namit{
+  public:
+  int age ;
+  string name ;
+  char gender ; 
+} ;
+int main(){
+  namit details ;
+  cin>>details.age ;
+  cin>>details.name;
+  cin>>details.gender;
 
-int main() {
-  MyClass myObj;  
-
-    cin>>myObj.myNum ;
-    cin>>myObj.myString ;
-    cout<<myObj.myString<<endl;
-    cout<<myObj.myNum<<endl;
-
-  
+  cout<<details.age<<endl;
+  cout<<details.name<<endl;
+  cout<<details.gender;
   return 0;
-}
+   
+} 
