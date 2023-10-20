@@ -1,35 +1,18 @@
+// C++ program to demonstrate an explicit call 
+#include <iostream> 
+using namespace std; 
 
-
-#include<iostream>
-using namespace std;
-class student
-{
-	int rno;
-	char name[50];
-	double fee;
-	public:
-	student()
-	{
-		cout<<"Enter the RollNo:";
-		cin>>rno;
-		cout<<"Enter the Name:";
-		cin>>name;
-		cout<<"Enter the Fee:";
-		cin>>fee;
-	}
+class Test { 
+public: 
+	Test() { cout << "Constructor is executed\n"; } 
+	~Test() { cout << "Destructor is executed\n"; } 
 	
+}; 
 
-
-	void display()
-	{
-		cout<<endl<<rno<<"\t"<<name<<"\t"<<fee;
-	}
-};
-
-int main()
-{
-	student s; 
-	s.display();
-	return 0;
-
+int main() 
+{ 
+	 Test(); // Explicit call to constructor 
+	Test t; // local object 
+	 t.~Test(); // Explicit call to destructor 
+	return 0; 
 }
