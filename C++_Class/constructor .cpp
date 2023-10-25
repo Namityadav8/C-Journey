@@ -1,4 +1,4 @@
-// C++ program to demonstrate an explicit call 
+
 #include <iostream> 
 using namespace std; 
 
@@ -11,8 +11,8 @@ public:
 
 int main() 
 { 
-	 Test(); // Explicit call to constructor 
-	Test t; // local object 
-	 t.~Test(); // Explicit call to destructor 
+	Test(); 
+	Test t;  
+	t.~Test(); 
 	return 0; 
 }
